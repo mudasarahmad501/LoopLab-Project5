@@ -1,0 +1,168 @@
+.navbar {
+  background-color: #240A34;
+  border-bottom: #891652 3px solid;
+  opacity: 0.8;
+}
+
+.navbar a {
+  color: #fff;
+  font-size: 1.15rem;
+}
+
+.navbar .nav-item a {
+  position: relative;
+  margin-left: 25px;
+}
+
+.navbar .nav-item a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width 0.3s;
+  position: absolute;
+  bottom: 0;
+  left: 23;
+}
+
+.navbar .nav-item a:hover::after,
+.navbar .nav-item a.active::after {
+  width: 50%;
+}
+
+.navbar .logo {
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+#home-section {
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  min-height: 700px;
+  background-size: cover;
+  color: #fff;
+}
+#home-section .dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+}
+#home-section .home-inner {
+  padding-top: 150px;
+}
+#home-section .card-form {
+  background-color: #891652;
+}
+#home-section .card-form p {
+  text-transform: capitalize;
+}
+#home-section .fa {
+  color: #891652;
+  background: #fff;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+#explore-head-section {
+  background-color: #FFEDD8;
+}
+#explore-head-section h1 {
+  font-weight: 300;
+  color: #240A34;
+}
+#explore-head-section .web-btn {
+  border-color: #240A34;
+}
+#explore-head-section .web-btn:hover {
+  background-color: #891652;
+}
+
+#explore-section .fa {
+  color: #fff;
+  background: #891652;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+#create-head-section {
+  color: #fff;
+  background-color: #891652;
+}
+
+#create-section {
+  background-color: #FFEDD8;
+}
+#create-section .fa {
+  color: #fff;
+  background: #891652;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+#share-head-section {
+  color: #fff;
+  background-color: #891652;
+}
+
+#share-section {
+  background-color: #FFEDD8;
+}
+#share-section .fa {
+  color: #fff;
+  background: #891652;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+#main-footer {
+  background-color: #240A34;
+  color: #fff;
+}
+#main-footer .mybtn {
+  color: #fff;
+  border-color: #fff;
+}
+#main-footer .mybtn:hover {
+  background-color: #fff;
+  color: #240A34;
+  border-color: #240A34;
+}
+
+#contactModal .modal-header {
+  background-color: #240A34;
+  color: #fff;
+}
+#contactModal .custom-close {
+  color: #fff;
+  opacity: 1;
+}
+
+.modal-footer button {
+  color: #240A34;
+  border-color: #240A34;
+}
+
+.modal-footer button:hover {
+  color: #fff;
+  border-color: #fff;
+  background-color: #240A34;
+}
+
+@media (max-width: 575px) {
+  .navbar .nav-item a:hover::after,
+  .navbar .nav-item a.active::after {
+    width: 10%;
+  }
+}/*# sourceMappingURL=style.css.map */
